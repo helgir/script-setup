@@ -31,16 +31,16 @@ brew tap phinze/cask
 brew install brew-cask
 #Brew-Cask-Apps
 
-#brew cask install --appdir="/Applications" alfred
-#brew cask install --appdir="/Applications" dropbox
-#brew cask install --appdir="/Applications" google-chrome
-#brew cask install --appdir="~/Applications" vlc
-#brew cask install --appdir="~/Applications" java
-#brew cask install --appdir="~/Applications" sublime-text
-#brew cask install --appdir="/Applications" sublime-text
-#brew cask install --appdir="/Applications" webstorm
-#brew cask install --appdir="/Applications" skype
-#brew cask install --appdir="~/Applications" spotify
+brew cask install --appdir="/Applications" alfred
+brew cask install --appdir="/Applications" dropbox
+brew cask install --appdir="/Applications" google-chrome
+brew cask install --appdir="~/Applications" vlc
+brew cask install --appdir="~/Applications" java
+brew cask install --appdir="~/Applications" sublime-text
+brew cask install --appdir="/Applications" sublime-text
+brew cask install --appdir="/Applications" webstorm
+brew cask install --appdir="/Applications" skype
+brew cask install --appdir="~/Applications" spotify
 
 
 # Link Cask Apps to Alfred
