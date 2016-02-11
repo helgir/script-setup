@@ -36,7 +36,6 @@ brew cask install --appdir="/Applications" dropbox
 brew cask install --appdir="/Applications" google-chrome
 brew cask install --appdir="~/Applications" vlc
 brew cask install --appdir="~/Applications" java
-brew cask install --appdir="~/Applications" sublime-text
 brew cask install --appdir="/Applications" sublime-text
 brew cask install --appdir="/Applications" webstorm
 brew cask install --appdir="/Applications" skype
