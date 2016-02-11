@@ -3,19 +3,20 @@ echo Install all AppStore Apps at first!
 read -p "Press any key to continue... " -n1 -s
 echo  '\n'
 
+# Clear brew
+brew untap caskroom/homebrew-cask
+brew untap phinze/homebrew-cask
+brew untap homebrew/science
+brew uninstall --force brew-cask
+brew update; brew cleanup; brew cask cleanup
+
 # Install brew
-ruby -e "$(curl -fsSkL raw.github.com/mxcl/homebrew/go)"
-echo Instaling brew
-if [ $? -eq 0 ]
-then
-    echo Brew install complete
-else
-    echo Failed to install brew exiting script
-    exit 1
-fi
+echo Installing brew
+ruby -e "$(curl -fsSkL raw.github.com/mxcl/homebro)"
+
 brew tap homebrew/science
 
-#Brew
+# Brew
 brew install toilet
 brew install figlet
 brew install python
@@ -26,10 +27,10 @@ npm install -g bower
 
 
 
-#Install brew-cask
+# Install brew-cask
 brew tap phinze/cask
 brew install brew-cask
-#Brew-Cask-Apps
+# Brew-Cask-Apps
 
 brew cask install --appdir="/Applications" alfred
 brew cask install --appdir="/Applications" dropbox
@@ -54,8 +55,6 @@ brew list
 echo Display all installed by brew-cask
 
 brew cask list
-
-
 
 echo Cleanup brew!
 
