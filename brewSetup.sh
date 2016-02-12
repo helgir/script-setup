@@ -5,6 +5,7 @@ echo  '\n'
 
 # Clear brew if you have brew installed
 brew untap caskroom/homebrew-cask
+brew untap caskroom/versions
 brew untap phinze/homebrew-cask
 brew untap homebrew/science
 brew uninstall --force brew-cask
@@ -30,6 +31,7 @@ npm install -g bower
 # Install brew-cask
 brew tap phinze/cask
 brew install brew-cask
+brew tap caskroom/versions
 # Brew-Cask-Apps
 
 brew cask install --appdir="/Applications" alfred
@@ -37,7 +39,7 @@ brew cask install --appdir="/Applications" dropbox
 brew cask install --appdir="/Applications" google-chrome
 brew cask install --appdir="~/Applications" vlc
 brew cask install --appdir="~/Applications" java
-brew cask install --appdir="/Applications" sublime-text
+brew cask install --appdir="/Applications" sublime-text3
 brew cask install --appdir="/Applications" webstorm
 brew cask install --appdir="/Applications" skype
 brew cask install --appdir="~/Applications" spotify
