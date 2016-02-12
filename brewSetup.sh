@@ -1,6 +1,7 @@
 #!/bin/sh
 echo Install all AppStore Apps at first!
-read -p "Press any key to continue... " -n1 -s
+read -p "This script is for installing essential stuff via brew..
+Press any key to continue." -n1 -s
 echo  '\n'
 
 # Clear brew if you have brew installed
@@ -20,6 +21,7 @@ brew tap homebrew/science
 # Brew
 brew install toilet
 brew install figlet
+brew install p7zip
 brew install python
 brew install node
 sudo npm install npm -g
@@ -43,7 +45,11 @@ brew cask install --appdir="/Applications" sublime-text3
 brew cask install --appdir="/Applications" webstorm
 brew cask install --appdir="/Applications" skype
 brew cask install --appdir="~/Applications" spotify
+brew cask install --appdir="~/Applications" flux
 
+echo Linking to alfred
+
+brew cask alfred link
 
 echo Display all installed by brew
 
