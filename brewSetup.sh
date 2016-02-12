@@ -12,7 +12,7 @@ brew update; brew cleanup; brew cask cleanup
 
 # Install brew
 echo Installing brew
-ruby -e "$(curl -fsSkL raw.github.com/mxcl/homebro)"
+ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 
 brew tap homebrew/science
 
