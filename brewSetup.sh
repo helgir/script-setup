@@ -21,8 +21,8 @@ brew tap homebrew/science
 # Brew
 brew install toilet
 brew install figlet
-brew install p7zip
 brew install python
+brew install wget
 brew install node
 sudo npm install npm -g
 npm install -g grunt-cli
@@ -39,6 +39,7 @@ brew tap caskroom/versions
 brew cask install --appdir="/Applications" alfred
 brew cask install --appdir="/Applications" dropbox
 brew cask install --appdir="/Applications" google-chrome
+brew cask install --appdir="/Applications" google-drive
 brew cask install --appdir="~/Applications" vlc
 brew cask install --appdir="~/Applications" java
 brew cask install --appdir="/Applications" sublime-text3
@@ -46,6 +47,7 @@ brew cask install --appdir="/Applications" webstorm
 brew cask install --appdir="/Applications" skype
 brew cask install --appdir="~/Applications" spotify
 brew cask install --appdir="~/Applications" flux
+brew cask install --appdir="/Applications" skim
 
 echo Linking to alfred
 
