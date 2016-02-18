@@ -21,6 +21,7 @@ brew tap homebrew/science
 # Brew
 brew install toilet
 brew install figlet
+brew install macvim
 brew install python
 brew install wget
 brew install node
