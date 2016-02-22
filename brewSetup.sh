@@ -24,6 +24,7 @@ brew install figlet
 brew install macvim
 brew install python
 brew install wget
+brew install heroku-toolbelt
 brew install node
 sudo npm install npm -g
 npm install -g grunt-cli
@@ -49,6 +50,7 @@ brew cask install --appdir="/Applications" skype
 brew cask install --appdir="~/Applications" spotify
 brew cask install --appdir="~/Applications" flux
 brew cask install --appdir="/Applications" skim
+brew cask install --appdir="/Applications" slack
 
 echo Linking to alfred
 
