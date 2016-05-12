@@ -51,6 +51,10 @@ brew cask install --appdir="~/Applications" spotify
 brew cask install --appdir="~/Applications" flux
 brew cask install --appdir="/Applications" skim
 brew cask install --appdir="/Applications" slack
+brew cask install --appdir="/Applications" atom
+brew cask install --appdir="/Applications" virtualbox
+brew cask install --appdir="/Applications" steam
+brew cask install --appdir="/Applications" transmission
 
 echo Linking to alfred
 
