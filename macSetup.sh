@@ -23,7 +23,7 @@ brew install node
 brew install yarn
 
 # Install Global packages
-sudo npm install -g npm
+npm install npm@latest -g
 
 sudo npm install -g create-react-native-app
 sudo npm install -g create-react-app
