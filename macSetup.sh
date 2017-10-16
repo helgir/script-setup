@@ -31,6 +31,9 @@ sudo npm install -g firebase-tools
 sudo npm install -g reason-cli
 sudo npm install -g flow-typed
 
+# Oh my Zsh
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
+
 # Install brew-cask
 brew tap caskroom/cask
 
