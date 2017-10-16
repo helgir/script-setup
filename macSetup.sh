@@ -23,16 +23,13 @@ brew install node
 brew install yarn
 
 # Install Global packages
-npm install npm@latest -g
+sudo npm install npm@latest -g
 
 sudo npm install -g create-react-native-app
 sudo npm install -g create-react-app
 sudo npm install -g firebase-tools
-sudo npm install -g reason-cli
+# sudo npm install -g bs-platform
 sudo npm install -g flow-typed
-
-# Oh my Zsh
-sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
 
 # Install brew-cask
 brew tap caskroom/cask
@@ -70,9 +67,6 @@ brew cask install --appdir="~/Applications" brave
 brew cask install --appdir="~/Applications" dropbox
 brew cask install --appdir="~/Applications" evernote
 
-echo Linking to alfred
-
-brew cask alfred link
 
 echo Display all installed by brew
 
@@ -87,3 +81,6 @@ echo Cleanup brew!
 # cleanup
 brew cleanup --force
 rm -f -r /Library/Caches/Homebrew/*
+
+# Oh my Zsh
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
